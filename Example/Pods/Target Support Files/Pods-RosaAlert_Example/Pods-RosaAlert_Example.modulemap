@@ -1,0 +1,6 @@
+framework module Pods_RosaAlert_Example {
+  umbrella header "Pods-RosaAlert_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

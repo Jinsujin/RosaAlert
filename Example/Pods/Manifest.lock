@@ -1,0 +1,16 @@
+PODS:
+  - RosaAlert (0.1.0)
+
+DEPENDENCIES:
+  - RosaAlert (from `../`)
+
+EXTERNAL SOURCES:
+  RosaAlert:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RosaAlert: 46f4e7f0d8913e2489fe71829f8ef92ce7be322c
+
+PODFILE CHECKSUM: 82461ac10e0a35a87efc98b230ff053f126c6fbd
+
+COCOAPODS: 1.11.3

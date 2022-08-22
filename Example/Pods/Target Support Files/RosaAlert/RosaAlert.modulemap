@@ -1,0 +1,6 @@
+framework module RosaAlert {
+  umbrella header "RosaAlert-umbrella.h"
+
+  export *
+  module * { export * }
+}
