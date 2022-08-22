@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'RosaAlert_Example' do
+  pod 'RosaAlert', :path => '../'
+
+  target 'RosaAlert_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
