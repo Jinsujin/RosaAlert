@@ -13,8 +13,8 @@ open class RosaAlert: UIView {
     
     public func show(in target: UIViewController) {
         let alert = UIAlertController(title: self.titleText, message: nil, preferredStyle: .alert)
-        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { [weak self] _ in
-            self?.completion?()
+        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { _ in
+            self.completion?()
         }))
         target.present(alert, animated: true, completion: nil)
     }
