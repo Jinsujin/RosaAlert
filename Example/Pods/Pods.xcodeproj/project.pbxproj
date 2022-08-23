@@ -13,7 +13,7 @@
 		A2572F849D28E6B11888BB6A88A74D1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		B001F19A5A4DCB946B47F832684ACEA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		BB5A28D0FFCB13033D4C43ED3670D1BB /* RosaAlert-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AF088F0E90EFB9295B90A5BCB3F9629 /* RosaAlert-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C546C60923D534FC0F45C734F32BE9B8 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7C3613358878ACB7C65BE778F38046 /* ReplaceMe.swift */; };
+		C546C60923D534FC0F45C734F32BE9B8 /* RosaAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7C3613358878ACB7C65BE778F38046 /* RosaAlert.swift */; };
 		D6F9983D5439D5C1EBD211E200D5A588 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		F2F04CB812BA793088CA75CD3F6F41AF /* Pods-RosaAlert_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11358B6BA64293457755C650E0A0A1D3 /* Pods-RosaAlert_Tests-dummy.m */; };
 		F596C5181821928C744CFF8B2A751965 /* Pods-RosaAlert_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0E8BB256F92DD25FC7DA74A74D0B26 /* Pods-RosaAlert_Example-dummy.m */; };
@@ -40,7 +40,7 @@
 		0230BCD1C6FAB27AC00114A583069234 /* Pods-RosaAlert_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RosaAlert_Tests-Info.plist"; sourceTree = "<group>"; };
 		030D1105019C23CF554E6F3460814646 /* RosaAlert.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RosaAlert.release.xcconfig; sourceTree = "<group>"; };
 		04CEC31A41BCF506560E84B10FBD478E /* RosaAlert.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RosaAlert.modulemap; sourceTree = "<group>"; };
-		05BD16AF1E7578E5CF868705FA18ADF4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		05BD16AF1E7578E5CF868705FA18ADF4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		09EBC18C16D7732DDB3D4EE20B25F010 /* Pods-RosaAlert_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-RosaAlert_Tests"; path = Pods_RosaAlert_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		11358B6BA64293457755C650E0A0A1D3 /* Pods-RosaAlert_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RosaAlert_Tests-dummy.m"; sourceTree = "<group>"; };
 		1566ADFBC9BBF4938A00076A6B605DA9 /* Pods-RosaAlert_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RosaAlert_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -50,9 +50,9 @@
 		30BA7B83A9D70947A6464BE0BEEE48CF /* Pods-RosaAlert_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RosaAlert_Example-umbrella.h"; sourceTree = "<group>"; };
 		34AD3663AEE7B8BF4F000A4DECD8E84F /* Pods-RosaAlert_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RosaAlert_Example.modulemap"; sourceTree = "<group>"; };
 		4854E1D031CCD7383BC06CB33172CEB9 /* Pods-RosaAlert_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RosaAlert_Tests.modulemap"; sourceTree = "<group>"; };
-		53AA2C2652277E639A1A3352A53C29EF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		53AA2C2652277E639A1A3352A53C29EF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5569F401C97FA560FEBA21C68D5FF373 /* Pods-RosaAlert_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RosaAlert_Example-Info.plist"; sourceTree = "<group>"; };
-		5A7C3613358878ACB7C65BE778F38046 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = RosaAlert/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		5A7C3613358878ACB7C65BE778F38046 /* RosaAlert.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RosaAlert.swift; path = RosaAlert/Classes/RosaAlert.swift; sourceTree = "<group>"; };
 		5BE465227F29919853E91AAE6F445502 /* Pods-RosaAlert_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-RosaAlert_Example"; path = Pods_RosaAlert_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		628A503934C3CB36205B9580E756CFC4 /* Pods-RosaAlert_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RosaAlert_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6B75B26F0A91E554EA00E5E90574C923 /* RosaAlert-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RosaAlert-Info.plist"; sourceTree = "<group>"; };
@@ -63,9 +63,9 @@
 		884746386D4BB889F85077DE4E2C2F65 /* Pods-RosaAlert_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RosaAlert_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9720E7DECDA687CEB9D07FE8ECC5DF9C /* Pods-RosaAlert_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RosaAlert_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		9A0E8BB256F92DD25FC7DA74A74D0B26 /* Pods-RosaAlert_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RosaAlert_Example-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B300EE766052D9892EBDBA0299F0423D /* RosaAlert-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RosaAlert-prefix.pch"; sourceTree = "<group>"; };
-		BA73E0B8F8AB63800E61A3FD14443764 /* RosaAlert.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = RosaAlert.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BA73E0B8F8AB63800E61A3FD14443764 /* RosaAlert.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = RosaAlert.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C780B22F305A67755106BCA5234B1EB2 /* Pods-RosaAlert_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RosaAlert_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		D360F0D12CCB1D8907BDED9759795CD6 /* Pods-RosaAlert_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RosaAlert_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E798A7D870A94D5C1EEEF1A8F0F5182C /* Pods-RosaAlert_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RosaAlert_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -186,7 +186,7 @@
 		758FD3EE5BB45CAF93AD4ECDB3854786 /* RosaAlert */ = {
 			isa = PBXGroup;
 			children = (
-				5A7C3613358878ACB7C65BE778F38046 /* ReplaceMe.swift */,
+				5A7C3613358878ACB7C65BE778F38046 /* RosaAlert.swift */,
 				9F49F9B00A82F1AE952A932598FC0701 /* Pod */,
 				4DBAACD676727DF485975D7CB67DDF09 /* Support Files */,
 			);
@@ -383,7 +383,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C546C60923D534FC0F45C734F32BE9B8 /* ReplaceMe.swift in Sources */,
+				C546C60923D534FC0F45C734F32BE9B8 /* RosaAlert.swift in Sources */,
 				0BBBFF517FF1935FC69728CCC5876470 /* RosaAlert-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -560,8 +560,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
