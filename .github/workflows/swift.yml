@@ -18,4 +18,4 @@ jobs:
     - name: Run tests
       run: |
         pod install --repo-update --clean-install --project-directory=Example/
-        xcodebuild test -workspace Example/RosaAlert.xcworkspace -scheme RosaAlert-Example -destination 'platform=iOS Simulator,name=iPhone 11 Pro,OS=15.2'
+        xcodebuild test -workspace Example/RosaAlert.xcworkspace -scheme RosaAlert-Example -destination 'platform=iOS Simulator,name=iPhone 11 Pro,OS=10.0'
