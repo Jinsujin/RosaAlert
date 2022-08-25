@@ -25,4 +25,7 @@ class Tests: XCTestCase {
         }
     }
     
+    func testRoi() {
+        XCTAssert(false, "Roi 가 아닙니다")
+    }
 }
