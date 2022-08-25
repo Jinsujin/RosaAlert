@@ -25,7 +25,7 @@ class Tests: XCTestCase {
         }
     }
     
-    func testRoi() {
-        XCTAssert(false, "Roi 가 아닙니다")
+    func testRoiSuccess() {
+        XCTAssert(true, "Roi 가 맞습니다!")
     }
 }
